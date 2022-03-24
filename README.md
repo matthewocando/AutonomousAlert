@@ -23,3 +23,5 @@ The model training process was as follows:
 6. If the prediction indicates the presence of a siren, the Pi enables a pre-defined GPIO pin to drive a series of LED lights as an output.
 7. Otherwise, if there is no siren, the Pi does nothing.
 8. The process of adding a new second of data and making a new prediction is repeated indefinitely, or until the unit is powered off.
+
+This project is currently limited to detection of Ambulance Sirens only, given the time needed to collect data samples.
